@@ -1,0 +1,134 @@
+body {
+    margin: 0 auto;
+}
+
+/* NAVBAR */
+
+#nav-bar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+}
+a:link {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }
+#nav-left{
+    text-align: left;
+    text-decoration: none;
+    font-size: 5px;
+}
+#nav-right{
+    text-align: right;
+    text-decoration: none;
+    font-size: 5px;
+
+}
+#about, #store {
+    display: inline-flex;
+    margin-left: 3px;
+    margin-top: 7px;
+}
+
+#mail, #images {
+    display: inline-flex;
+    margin-right: 3px;
+    margin-top: 7px;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 5px;
+    background-color: #f2f2f2;
+    padding: 0.4rem;
+    position: fixed;
+
+}
+
+#footer-left {
+    display: inline-flex;
+}
+#footer-right {
+    text-align: end;
+    margin-right: 20px;
+}
+.bottom {
+    margin-left: 3px;
+}
+
+/***** GOOGLE LOGO *****/
+
+#google{
+    position: fixed;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 15%;
+    max-width: 272px;
+    max-height: 201px;
+}
+
+/***** SEARCH INPUT *****/
+
+#search{
+    position: fixed;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    font-size: 4px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: #e9eaed 0.5px solid;
+    width: 120px;
+    background-color: #ffffff;
+
+}
+
+#search-buttons {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 130px;
+}
+#gsearch:hover, #lucky:hover {
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 4px;
+color: #5F6368;
+cursor: pointer;
+-moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+}
+#gsearch, #lucky {
+font-size: 5.5px;
+text-align: center;
+border: 1px solid #f2f2f2;
+background-color: #f2f2f2;
+padding-top: 2px;
+padding-bottom: 2px;
+border-radius: 4px;
+color: black;
+}
+
+/* FOOTER */
+
